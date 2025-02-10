@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Introduction" xml:space="preserve">
+    <value>Introduction</value>
+  </data>
+  <data name="Hello!" xml:space="preserve">
+    <value>Hello!</value>
+  </data>
+  <data name="My name is" xml:space="preserve">
+    <value>My name is</value>
+  </data>
+  <data name="and I am a programmer that currently studies at" xml:space="preserve">
+    <value>and I am a programmer that currently studies at</value>
+  </data>
+  <data name="One of Swedens largest Skills developers" xml:space="preserve">
+    <value>One of Swedens largest Skills developers</value>
+  </data>
+  <data name="in" xml:space="preserve">
+    <value>in</value>
+  </data>
+  <data name="with a focus on" xml:space="preserve">
+    <value>with a focus on</value>
+  </data>
+  <data name="Programming Languages" xml:space="preserve">
+    <value>Programming Languages</value>
+  </data>
+  <data name="I am an individual that likes structure and likes to be challanged," xml:space="preserve">
+    <value>I am an individual that likes structure and likes to be challanged,</value>
+  </data>
+  <data name="wich is why I mostly enjoy working as a" xml:space="preserve">
+    <value>wich is why I mostly enjoy working as a</value>
+  </data>
+  <data name="Coding logic and queries, and working with databases" xml:space="preserve">
+    <value>Coding logic and queries, and working with databases</value>
+  </data>
+  <data name="backend programmer" xml:space="preserve">
+    <value>backend programmer</value>
+  </data>
+  <data name="I consider myself a cheery and goofy person, that often brings a smile or a laugh" xml:space="preserve">
+    <value>I consider myself a cheery and goofy person, that often brings a smile or a laugh</value>
+  </data>
+  <data name="I currently reside in" xml:space="preserve">
+    <value>I currently reside in</value>
+  </data>
+  <data name="where I live with my sambo whom I've been with since" xml:space="preserve">
+    <value>where I live with my sambo whom I've been with since</value>
+  </data>
+  <data name="Before I started studying as a programmer I was an educated chef" xml:space="preserve">
+    <value>Before I started studying as a programmer I was an educated chef</value>
+  </data>
+  <data name="and worked in both" xml:space="preserve">
+    <value>and worked in both</value>
+  </data>
+  <data name="Biggest Zoo in the Nordic Countries" xml:space="preserve">
+    <value>Biggest Zoo in the Nordic Countries</value>
+  </data>
+  <data name="as a chef in their" xml:space="preserve">
+    <value>as a chef in their</value>
+  </data>
+  <data name="and before that I worked at" xml:space="preserve">
+    <value>and before that I worked at</value>
+  </data>
+  <data name="Hospital in" xml:space="preserve">
+    <value>Hospital in</value>
+  </data>
+  <data name="as a chef making food for both the patients and their lunch restaurant" xml:space="preserve">
+    <value>as a chef making food for both the patients and their lunch restaurant</value>
+  </data>
+  <data name="I am currently studying Programming at" xml:space="preserve">
+    <value>I am currently studying Programming at</value>
+  </data>
+  <data name="Lexicon: One of Swedens largest Skills developers" xml:space="preserve">
+    <value>Lexicon: One of Swedens largest Skills developers</value>
+  </data>
+  <data name="I studied to become a chef at" xml:space="preserve">
+    <value>I studied to become a chef at</value>
+  </data>
+  <data name="The Schools that I attended for my education" xml:space="preserve">
+    <value>The Schools that I attended for my education</value>
+  </data>
+  <data name="I studied IT in Highschool at" xml:space="preserve">
+    <value>I studied IT in Highschool at</value>
+  </data>
+  <data name="does no longer exist in" xml:space="preserve">
+    <value>does no longer exist in</value>
+  </data>
+  <data name="I worked as a chef at" xml:space="preserve">
+    <value>I worked as a chef at</value>
+  </data>
+  <data name="I've had internship as a baker at" xml:space="preserve">
+    <value>I've had internship as a baker at</value>
+  </data>
+  <data name="Bakery that no longer exist sadly" xml:space="preserve">
+    <value>Bakery that no longer exist sadly</value>
+  </data>
+  <data name="I've had internship as a chef at" xml:space="preserve">
+    <value>I've had internship as a chef at</value>
+  </data>
+  <data name="A school in a suburb called Åby north fom Norrköping" xml:space="preserve">
+    <value>A school in a suburb called Åby north fom Norrköping</value>
+  </data>
+  <data name="A pre-school in Norrköping" xml:space="preserve">
+    <value>A pre-school in Norrköping</value>
+  </data>
+  <data name="Education and Work Experiences" xml:space="preserve">
+    <value>Education and Work Experiences</value>
+  </data>
+  <data name="Interests" xml:space="preserve">
+    <value>Interests</value>
+  </data>
+  <data name="My biggest hobby is Gaming, I've always liked games and my first game I remember playing was Super Mario Bros." xml:space="preserve">
+    <value>My biggest hobby is Gaming, I've always liked games and my first game I remember playing was Super Mario Bros.</value>
+  </data>
+  <data name="for the" xml:space="preserve">
+    <value>for the</value>
+  </data>
+  <data name="in the early to mid 90s" xml:space="preserve">
+    <value>in the early to mid 90s</value>
+  </data>
+  <data name="Now however I am mostly playing PC Games like" xml:space="preserve">
+    <value>Now however I am mostly playing PC Games like</value>
+  </data>
+  <data name="An online role playing game" xml:space="preserve">
+    <value>An online role playing game</value>
+  </data>
+  <data name="Extremely laidback and fun farming RPG" xml:space="preserve">
+    <value>Extremely laidback and fun farming RPG</value>
+  </data>
+  <data name="Action RPG Made by" xml:space="preserve">
+    <value>Action RPG Made by</value>
+  </data>
+  <data name="Other hobbies I enjoy consist of Cooking. Despite having worked with food most of my worklike, " xml:space="preserve">
+    <value>Other hobbies I enjoy consist of Cooking. Despite having worked with food most of my worklike, 
+I still do enjoy cooking for and entertaining guests</value>
+  </data>
+  <data name="I also enjoy Reading" xml:space="preserve">
+    <value>I also enjoy Reading</value>
+  </data>
+  <data name="Japanese Comics" xml:space="preserve">
+    <value>Japanese Comics</value>
+  </data>
+  <data name="especially when commuting, great way to make the commute go a little faster" xml:space="preserve">
+    <value>especially when commuting, great way to make the commute go a little faster</value>
+  </data>
+  <data name="Finishing Words" xml:space="preserve">
+    <value>Finishing Words</value>
+  </data>
+  <data name="Thank you for taking an interest and reading about myself" xml:space="preserve">
+    <value>Thank you for taking an interest and reading about myself</value>
+  </data>
+  <data name="See you on the flip side" xml:space="preserve">
+    <value>See you on the flip side</value>
+  </data>
+  <data name="Who am I?" xml:space="preserve">
+    <value>Who am I?</value>
+  </data>
+</root>
